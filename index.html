@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>두근두근 내 옆자리를 부탁해!</title>
+    <style>
+      body {
+        position: relative;
+        overflow: hidden;
+      }
+      .main-contain {
+        width: 100vw;
+        height: 100vh;
+        background-image: url("./asset/Image/main_bg.jpeg");
+        /* background-position: center; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .main_1 {
+        height: 80%;
+        object-fit: contain;
+      }
+      .b1 {
+        position: absolute;
+        bottom: 100px;
+        font-size: 30px;
+        font-family: "hbios-sys";
+        border: 0;
+        text-decoration: none;
+        color: #fe1a56;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="main-contain">
+      <img src="./asset/Image/main_1.png" alt="" class="main_1" />
+      <a href="./components/p1.html" class="b1">다음</a>
+    </section>
+  </body>
+</html>
